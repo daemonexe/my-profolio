@@ -349,7 +349,7 @@ I also freelance in web development and UI/UX design, creating fast, modern webs
               <article className="project-card glass-card glass-pop">
                 <h4>Paint Application (Desktop)</h4>
                 <img
-                  src="https://private-user-images.githubusercontent.com/110326955/270149971-4e576f87-b448-4fd5-a46a-3a16eb11f877.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjUzNDQ4NTEsIm5iZiI6MTc2NTM0NDU1MSwicGF0aCI6Ii8xMTAzMjY5NTUvMjcwMTQ5OTcxLTRlNTc2Zjg3LWI0NDgtNGZkNS1hNDZhLTNhMTZlYjExZjg3Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxMFQwNTI5MTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wMzUzZWY2YzdiNTdhYWRhOWM2MTJjZDcxMmRmODQ4YmUzNTlhM2I5ZjMwNGI5MTI0MWM1MDQ1NzAzNDlkZDI5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.eoEmgKK5XdMNFzouK0XQVdmE3WdUslwEZLNUls40mPw"
+                  src="https://github.com/daemonexe/my-profolio/blob/main/ssd.png?raw=true"
                   alt="Paint App Preview"
                   className="project-img"
                 />
