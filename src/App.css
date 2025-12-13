@@ -167,12 +167,14 @@ body {
   gap: 14px;
 }
 
+
+
 /* profile card */
 .profile-card {
   display: flex;
   align-items: flex-start;
   gap: 16px;
-
+  border: color red 5px;
   width: 100%;
   max-width: 680px;
   padding: 22px 26px;
@@ -582,6 +584,8 @@ body[data-theme="dark"] .glass-card {
   box-shadow: 0 22px 55px rgba(0, 0, 0, 0.8);
 }
 
+
+
 body[data-theme="dark"] .glass-card::before {
   background: linear-gradient(
     to bottom,
@@ -659,4 +663,79 @@ body[data-theme="dark"] .theme-toggle {
   color: #e5e7eb;
   border-color: rgba(148, 163, 184, 0.8);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.8);
+}
+
+/* ===== FAQ CARD ===== */
+.faq-card {
+  max-width: 520px;          /* makes it a nice side card */
+  padding: 22px 22px;
+}
+
+.faq-card .profile-content h2 {
+  font-size: 1.25rem;
+  font-weight: 750;
+  letter-spacing: 0.2px;
+}
+
+.faq-card .subtitle {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  opacity: 0.95;
+}
+
+.faq-card .description {
+  margin: 4px 0 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: #111827;
+  padding-left: 10px;
+  border-left: 2px solid rgba(59, 130, 246, 0.35);
+}
+
+body[data-theme="dark"] .faq-card .description {
+  color: #cbd5f5;
+  border-left: 2px solid rgba(56, 189, 248, 0.35);
+}
+
+/* makes each question feel separated */
+.faq-card .subtitle:not(:first-of-type) {
+  padding-top: 8px;
+  border-top: 1px solid rgba(148, 163, 184, 0.22);
+}
+
+/* ===== TOOLTIP ===== */
+.social-btn {
+  position: relative;
+}
+
+.social-btn::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 110%;
+  top: 50%;
+  transform: translateY(-50%) scale(0.95);
+  
+  white-space: nowrap;
+  padding: 6px 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 10px;
+
+  background: rgba(15, 23, 42, 0.92);
+  color: #e5e7eb;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.social-btn:hover::after {
+  opacity: 1;
+  transform: translateY(-50%) scale(1);
+}
+
+/* dark mode tweak */
+body[data-theme="dark"] .social-btn::after {
+  background: rgba(2, 6, 23, 0.96);
 }
