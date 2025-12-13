@@ -28,15 +28,51 @@ function App() {
             <div className="profile-content">
               <h2>Thanujan Kapilan</h2>
               <p className="subtitle">
-                🍁Aspiring Junior Software Engineer • Gen AI Enthusiast 
+                Junior Software Developer | Full-Stack & Gen AI Projects
               </p>
               <p className="description">
-Junior Software Engineer specializing in full-stack development and AI-driven solutions. I’ve built GenAI applications, automation tools, and scalable web projects using Python, JavaScript, React, Node.js, and SQL/NoSQL databases.
+                I’m a Junior Software Developer with hands-on experience building full-stack and AI-powered applications using Python, JavaScript, React, Node.js, and SQL/NoSQL databases.
 
-I also freelance in web development and UI/UX design, creating fast, modern websites that help companies grow their digital presence.
+I’ve developed production-style projects including AI document processing systems, automation tools, and modern web applications. Alongside this, I work as a freelance web developer and UI/UX designer, delivering end-to-end solutions for real clients.
+
+I’m currently seeking internship or junior software roles (non-co-op) where I can contribute immediately, learn from experienced engineers, and grow within a fast-paced team.
               </p>
             </div>
+
+            
           </div>
+
+<div className="profile-card glass-card glass-pop faq-card">
+  <div className="profile-content">
+    <h2>Recruiter FAQ</h2>
+
+    <p className="subtitle">Where are you based?</p>
+    <p className="description">
+      Toronto, ON — open to remote and relocation across Canada.
+    </p>
+
+    <p className="subtitle">Education / graduation</p>
+    <p className="description">
+      Diploma in Computer Programming (Seneca Polytechnic) — Aug 2025.
+    </p>
+
+    <p className="subtitle">What roles are you targeting?</p>
+    <p className="description">
+      Junior Software Developer • Junior Full-Stack / Backend • Web Developer •
+      GenAI / Automation (Junior) • Software Dev Intern (Non-Co-op)
+    </p>
+
+    <p className="subtitle">Work authorization</p>
+    <p className="description">
+      Yes — authorized to work full-time in Canada (PGWP valid until 2029).
+    </p>
+
+    <p className="subtitle">Start date</p>
+    <p className="description">Available immediately.</p>
+  </div>
+</div>
+
+          
 
           <div className="social-buttons">
             {/* Dark mode toggle */}
@@ -45,6 +81,8 @@ I also freelance in web development and UI/UX design, creating fast, modern webs
               className="social-btn theme-toggle"
               onClick={() => setIsDark((prev) => !prev)}
               aria-label="Toggle dark mode"
+              data-tooltip="Switch Theme"
+
             >
               {isDark ? "🌙" : "☀️"}
             </button>
@@ -53,6 +91,7 @@ I also freelance in web development and UI/UX design, creating fast, modern webs
               href="https://www.linkedin.com/in/thanujan18/"
               target="_blank"
               rel="noreferrer"
+              data-tooltip="Linked In"
               className="social-btn"
             >
               <ImLinkedin size={25} />
@@ -62,6 +101,7 @@ I also freelance in web development and UI/UX design, creating fast, modern webs
               href="https://github.com/daemonexe"
               target="_blank"
               rel="noreferrer"
+              data-tooltip="GitHub Repositories"
               className="social-btn"
             >
               <FaGithub size={25} />
@@ -71,6 +111,7 @@ I also freelance in web development and UI/UX design, creating fast, modern webs
               href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtDqNjgmdHXZHNRVXkFdgfWKcJlktMrzflkRkTGxpVLqdcPSsVjxnxCzpWgPQjpjcZTVXlwV"
               target="_blank"
               rel="noreferrer"
+              data-tooltip="Email Me"
               className="social-btn"
             >
               <SiGmail size={25} />
@@ -80,17 +121,90 @@ I also freelance in web development and UI/UX design, creating fast, modern webs
               href="https://drive.google.com/file/d/1uOYeOp7LGtLHM2OaArMFnOh10cQmlxdK/view?usp=sharing"
               className="social-btn"
               target="_blank"
+              data-tooltip="My Resume"
               rel="noreferrer"
             >
               <HiOutlineNewspaper size={25} />
             </a>
           </div>
+          
         </header>
+
+
+
+
 
         {/* ===== MAIN LAYOUT ===== */}
         <main className="content-layout">
           {/* ===== LEFT COLUMN: EXPERIENCE + SKILLS ===== */}
+
+          
+          
           <section className="left-column">
+
+                        {/* Skills */}
+            <section className="skills-card glass-card glass-pop">
+              <h3 className="section-title">Skills</h3>
+              <div className="skills-grid">
+                <div className="skills-group">
+                  <h4>Languages</h4>
+                  <div className="skills-pills">
+                    <span className="skill-pill">Python</span>
+                    <span className="skill-pill">JavaScript</span>
+                    <span className="skill-pill">C/C++</span>
+                    <span className="skill-pill">C#</span>
+                  </div>
+                </div>
+
+                <div className="skills-group">
+                  <h4>Web & Frameworks</h4>
+                  <div className="skills-pills">
+                    <span className="skill-pill">React</span>
+                    <span className="skill-pill">Node.js</span>
+                    <span className="skill-pill">Flask</span>
+                    <span className="skill-pill">FastAPI</span>
+                    <span className="skill-pill">HTML/CSS</span>
+                    <span className="skill-pill">Tailwind</span>
+                    <span className="skill-pill">.NET</span>
+
+                  </div>
+                </div>
+
+                <div className="skills-group">
+                  <h4>Databases</h4>
+                  <div className="skills-pills">
+                    <span className="skill-pill">PostgreSQL</span>
+                    <span className="skill-pill">MongoDB</span>
+                    <span className="skill-pill">SQLite</span>
+                    <span className="skill-pill">Oracle</span>
+                    <span className="skill-pill">Pandas</span>
+                  </div>
+                </div>
+
+                <div className="skills-group">
+                  <h4>Tools & DevOps</h4>
+                  <div className="skills-pills">
+                    <span className="skill-pill">Git</span>
+                    <span className="skill-pill">Docker</span>
+                    <span className="skill-pill">Linux</span>
+                    <span className="skill-pill">Selenium</span>
+                  </div>
+                </div>
+
+                <div className="skills-group">
+                  <h4>IT Helpdesk </h4>
+                  <div className="skills-pills">
+                    <span className="skill-pill">Microsoft 365</span>
+                    <span className="skill-pill">Azure Services</span>
+                    <span className="skill-pill">Salesforece</span>
+                    <span className="skill-pill">Jira</span>
+                    <span className="skill-pill">Ticketing</span>
+                  </div>
+                </div>
+
+              </div>
+            </section>
+
             {/* Experience */}
             <section className="experience-card glass-card glass-pop">
               <h3 className="section-title">Education</h3>
@@ -123,69 +237,13 @@ I also freelance in web development and UI/UX design, creating fast, modern webs
                 </ul>
               </div>
 
-              <div className="experience-item">
-                <h4>Wine Sales Specialist — Winerack</h4>
-                <p className="experience-meta">July 2025 – Present · Hybrid</p>
-                <ul>
-                  <li>Boosted sales by 15% through data-driven customer engagement.</li>
-                  <li>Managed digital inventory systems, stock audits, and write-offs.</li>
-                  <li>Analyzed sales patterns to place accurate, efficient product orders.</li>
-                  <li>
-                    Strengthened troubleshooting skills through daily POS and system
-                    operations.
-                  </li>
-                </ul>
-              </div>
-
               <hr />
             </section>
 
-            {/* Skills */}
-            <section className="skills-card glass-card glass-pop">
-              <h3 className="section-title">Skills</h3>
-              <div className="skills-grid">
-                <div className="skills-group">
-                  <h4>Languages</h4>
-                  <div className="skills-pills">
-                    <span className="skill-pill">Python</span>
-                    <span className="skill-pill">JavaScript</span>
-                    <span className="skill-pill">C/C++</span>
-                    <span className="skill-pill">C#</span>
-                  </div>
-                </div>
 
-                <div className="skills-group">
-                  <h4>Web & Frameworks</h4>
-                  <div className="skills-pills">
-                    <span className="skill-pill">React</span>
-                    <span className="skill-pill">Node.js</span>
-                    <span className="skill-pill">Flask</span>
-                    <span className="skill-pill">FastAPI</span>
-                    <span className="skill-pill">HTML/CSS</span>
-                    <span className="skill-pill">Tailwind</span>
-                  </div>
-                </div>
 
-                <div className="skills-group">
-                  <h4>Databases</h4>
-                  <div className="skills-pills">
-                    <span className="skill-pill">PostgreSQL</span>
-                    <span className="skill-pill">MongoDB</span>
-                    <span className="skill-pill">SQLite</span>
-                  </div>
-                </div>
 
-                <div className="skills-group">
-                  <h4>Tools & DevOps</h4>
-                  <div className="skills-pills">
-                    <span className="skill-pill">Git</span>
-                    <span className="skill-pill">Docker</span>
-                    <span className="skill-pill">Linux</span>
-                    <span className="skill-pill">Selenium</span>
-                  </div>
-                </div>
-              </div>
-            </section>
+
           </section>
 
           {/* ===== RIGHT COLUMN: PROJECTS + FREELANCE ===== */}
@@ -349,7 +407,7 @@ I also freelance in web development and UI/UX design, creating fast, modern webs
               <article className="project-card glass-card glass-pop">
                 <h4>Paint Application (Desktop)</h4>
                 <img
-                  src="https://github.com/daemonexe/my-profolio/blob/main/ssd.png?raw=true"
+                  src="https://private-user-images.githubusercontent.com/110326955/270149971-4e576f87-b448-4fd5-a46a-3a16eb11f877.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjUyNTA5MzksIm5iZiI6MTc2NTI1MDYzOSwicGF0aCI6Ii8xMTAzMjY5NTUvMjcwMTQ5OTcxLTRlNTc2Zjg3LWI0NDgtNGZkNS1hNDZhLTNhMTZlYjExZjg3Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIwOVQwMzIzNTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00M2MyZmYyODQ0MDZhMGVhNTdlYzdhZTgxOTIxN2NiMTMxNDQzMjRkZTZlY2JjMTY4NTJmZjU4ZWNjN2VjZjgyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.qGP2bvCv5PkIHCC03ZtCvOY--jTD-QiODNwrgipGkEQ"
                   alt="Paint App Preview"
                   className="project-img"
                 />
