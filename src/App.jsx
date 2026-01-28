@@ -10,7 +10,7 @@ function App() {
 
   // Apply theme class to <body>
   useEffect(() => {
-    document.body.setAttribute("data-theme", isDark ? "dark" : "light");
+    document.body.setAttribute("data-theme", isDark ? "light" : "dark");
   }, [isDark]);
 
   return (
@@ -20,7 +20,7 @@ function App() {
         <header className="header">
           <div className="profile-card glass-card glass-pop">
             <img
-              src="https://media.licdn.com/dms/image/v2/D4E03AQFyUPvX1KXyfQ/profile-displayphoto-crop_800_800/B4EZh2cBKGGcAI-/0/1754333713437?e=1766620800&v=beta&t=fdUWZJ1v0mDhHy0XCu_ylV_5jllTUyL94F40cVpxtGc"
+              src="https://avatars.githubusercontent.com/u/110326955?v=4"
               alt="Thanujan Kapilan"
               className="profile-img"
             />
@@ -31,11 +31,7 @@ function App() {
                 Junior Software Developer | Full-Stack & Gen AI Projects
               </p>
               <p className="description">
-                I’m a Junior Software Developer with hands-on experience building full-stack and AI-powered applications using Python, JavaScript, React, Node.js, and SQL/NoSQL databases.
-
-I’ve developed production-style projects including AI document processing systems, automation tools, and modern web applications. Alongside this, I work as a freelance web developer and UI/UX designer, delivering end-to-end solutions for real clients.
-
-I’m currently seeking internship or junior software roles (non-co-op) where I can contribute immediately, learn from experienced engineers, and grow within a fast-paced team.
+                Junior Software Engineer with over 1 year of professional development experience building scalable web applications and GenAI-enabled software products. Recent Computer Programming graduate with a strong foundation in full-stack development, modern web technologies, and AI-driven systems. Experienced in delivering production-ready solutions and owning features end-to-end.
               </p>
             </div>
 
@@ -118,7 +114,7 @@ I’m currently seeking internship or junior software roles (non-co-op) where I 
             </a>
 
             <a
-              href="https://drive.google.com/file/d/1uOYeOp7LGtLHM2OaArMFnOh10cQmlxdK/view?usp=sharing"
+              href="https://docs.google.com/document/d/1t8NSfuCfhBYZaXrOD9ecOHLmG_e6sr3C/edit?usp=sharing&ouid=116289683492122257416&rtpof=true&sd=true"
               className="social-btn"
               target="_blank"
               data-tooltip="My Resume"
@@ -219,20 +215,21 @@ I’m currently seeking internship or junior software roles (non-co-op) where I 
               <h3 className="section-title">Experience</h3>
 
               <div className="experience-item">
-                <h4>Web Developer — Self-Employed</h4>
-                <p className="experience-meta">Aug 2025 – Present · Remote</p>
+                <h4>Software Developer — LR Glass (Contract)</h4>
+                <p className="experience-meta">Chennai, India · Jan 2025 – Present</p>
                 <ul>
                   <li>
-                    Collaborate with companies on project-based web development, from
-                    discovery to deployment.
+                    Built and maintained a production web application, focusing on frontend development,
+                    performance tuning, SEO configuration, analytics instrumentation, and ad platform integrations.
                   </li>
                   <li>
-                    Develop and optimize websites with a focus on performance, UX, and
-                    business impact.
+                    Worked closely with stakeholders to design and deliver scalable solutions aligned with business growth objectives.
                   </li>
                   <li>
-                    Create SEO strategies, visual branding, and digital marketing
-                    recommendations to grow online presence.
+                    Increased online conversions to 100+ monthly sales by optimizing site speed, UX flows, and search visibility.
+                  </li>
+                  <li>
+                    Provided continuous maintenance, feature updates, and issue resolution to support stable production operations.
                   </li>
                 </ul>
               </div>
@@ -435,59 +432,7 @@ I’m currently seeking internship or junior software roles (non-co-op) where I 
               </article>
             </div>
 
-            {/* Freelance / Client Work */}
-            <div className="section-header">
-              <h3 className="section-title">Freelance & Client Work</h3>
-            </div>
-
-            <div className="freelance-grid">
-              <article className="freelance-card glass-card glass-pop">
-                <h4>NGM - Hotel Renovation Company</h4>
-
-                <img
-                  src="https://github.com/daemonexe/daemonexe/blob/main/ddy.png?raw=true"
-                  alt="NGM website preview"
-                  className="project-img"
-                />
-
-                <p className="card-text">
-                  Designed and built a modern website for a Canadian hotel renovation
-                  company serving brands like Marriott and Hilton, improving SEO and lead
-                  generation.
-                </p>
-                <br />
-                <a
-                  href="https://www.ngmltd.ca/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="card-link"
-                >
-                  Website
-                </a>
-              </article>
-
-              <article className="freelance-card glass-card glass-pop">
-                <h4>lR - Glass Manufacturing Brand</h4>
-                <img
-                  src="https://github.com/daemonexe/daemonexe/blob/main/lr.png?raw=true"
-                  alt="Glass brand website preview"
-                  className="project-img"
-                />
-                <p className="card-text">
-                  Delivered logo design and a retro, old-school themed website aligned
-                  with client requirements and target customers.
-                </p>
-                <br />
-                <a
-                  href="https://www.lrglass.online/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="card-link"
-                >
-                  Website
-                </a>
-              </article>
-            </div>
+            {/* (Freelance section removed as requested) */}
           </section>
         </main>
       </div>
